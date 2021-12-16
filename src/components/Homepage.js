@@ -9,7 +9,7 @@ const Homepage = ({ setScreen }) => {
     <header className="Homepage">
       <h1 className="text-xl p-6">Diary LOL</h1>
       <button
-        className="text-lg bg-neutral-300 hover:bg-neutral-700 hover:text-white px-4 py-2 m-2"
+        className="block mx-auto mb-2 text-lg rounded bg-green-700 hover:bg-white text-white border-green-700  hover:text-green-700 hover:border-green-700 border-2 border-solid hover:text-white px-4 py-2 m-2 uppercase"
         onClick={activity}
       >
         Start
