@@ -30,7 +30,7 @@ const AddActivity = ({ storeActivity }) => {
                 onChange={event => setDescription(event.target.value)}
                 ></textarea>
               <button
-                className="block mx-auto mb-2 text-lg rounded bg-green-700 hover:bg-white text-white border-green-700  hover:text-green-700 hover:border-green-700 border-2 border-solid hover:text-white px-4 py-2 m-2 uppercase"
+                className="block mx-auto mb-2 text-lg rounded bg-green-700 hover:bg-white text-white border-green-700  hover:text-green-700 hover:border-green-700 border-2 border-solid px-4 py-2 m-2 uppercase"
                 onClick={saveActivity}
               >
                 Save

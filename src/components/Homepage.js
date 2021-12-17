@@ -6,14 +6,10 @@ const Homepage = ({ setScreen }) => {
   }
 
   return (
-    <header className="Homepage">
-      <h1 className="text-xl p-6">Diary LOL</h1>
-      <button
-        className="block mx-auto mb-2 text-lg rounded bg-green-700 hover:bg-white text-white border-green-700  hover:text-green-700 hover:border-green-700 border-2 border-solid hover:text-white px-4 py-2 m-2 uppercase"
-        onClick={activity}
-      >
-        Start
-      </button>
+    <>
+      <header className="Homepage">
+        <h1 className="text-xl p-6">Diary LOL</h1>
+      </header>
       <div className="container w-100 mx-auto">
         <div className="row gap-2">
           <div className="columns-1 lg:columns-2 gap-2">
@@ -42,9 +38,19 @@ const Homepage = ({ setScreen }) => {
               <span className="text-lg">test g</span>
             </div>
           </div>
+          <div className='row'>
+            <div class="columns-1">
+            <button
+              className="block mx-auto mb-2 text-lg rounded bg-green-700 hover:bg-white text-white border-green-700  hover:text-green-700 hover:border-green-700 border-2 border-solid px-4 py-2 m-2 uppercase"
+              onClick={activity}
+            >
+              Start
+            </button>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+    </>
   )
 }
 
